@@ -6,7 +6,7 @@ public class Trinumpattern {
             int num=i;
             System.out.print(num +" ");
             for(int j=1;j<i;j++){
-                num += n-j;
+                num +=n-j;
                 System.out.print(num+" ");
             }
             System.out.println("\n");
